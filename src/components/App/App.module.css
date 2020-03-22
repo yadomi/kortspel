@@ -1,0 +1,12 @@
+.deck {
+  overflow: hidden;
+  width: 130px;
+  height: 200px;
+}
+
+.board {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: #e2e2e2;
+}

@@ -1,0 +1,14 @@
+.movable[data-is-moving="true"] > * {
+  transform: rotate(5deg);
+  box-shadow: 15px 25px 25px rgba(0, 0, 0, 0.5);
+}
+
+.movable {
+  position: absolute;
+  cursor: grab;
+  border-radius: 6px;
+}
+
+.movable[data-is-moving="true"] {
+  cursor: grabbing;
+}
